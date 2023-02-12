@@ -318,7 +318,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/green"
-        android:text="Call us"/>
+        android:text="Call us"
+        android:id="@+id/btnCall"/>
 
 
 </LinearLayout>
