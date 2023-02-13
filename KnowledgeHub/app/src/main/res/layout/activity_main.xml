@@ -27,7 +27,7 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:text="Welcome to Neha knowledge hub." />
+        android:text="Empowering Minds with Limitless Learning" />
 
     <Button
         android:id="@+id/btnScreen2"
@@ -35,7 +35,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explore"
+        android:text="Welcome"
         android:textStyle="bold"
         android:textSize="20dp"
         android:backgroundTint="@color/aqua_blue"
