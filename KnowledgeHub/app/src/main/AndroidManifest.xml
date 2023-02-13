@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.androidtutorials.knowledgehub">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KnowledgeHub"
         tools:targetApi="31">
+        <activity
+            android:name=".Web3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BlockchainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IOSdevelopmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebDevelopmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDevelopmentActivity"
+            android:exported="false" />
         <activity
             android:name=".CardsActivity"
             android:exported="false" />

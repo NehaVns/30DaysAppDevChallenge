@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_android_development.xml" value="0.17552083333333332" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_blockchain.xml" value="0.17552083333333332" />
         <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_cards.xml" value="0.22" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_iosdevelopment.xml" value="0.17552083333333332" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_machine_learning.xml" value="0.17552083333333332" />
         <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_main.xml" value="0.17135416666666667" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_web3.xml" value="0.17552083333333332" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/KnowledgeHub/app/src/main/res/layout/activity_web_development.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
