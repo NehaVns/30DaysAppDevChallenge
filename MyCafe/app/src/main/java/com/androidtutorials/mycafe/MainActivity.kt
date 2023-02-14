@@ -15,10 +15,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnOrder.setOnClickListener {
-            val orderList = eT1.text.toString()+","+eT2.text.toString()+","+eT3.text.toString()+","+eT4.text.toString()
+
+            val ordersPlaced = eT1.text.toString()+","+eT2.text.toString()+
+                    ","+eT3.text.toString()+","+eT4.text.toString()
 
             intent = Intent(this, ShowOrder::class.java)
-            intent.putExtra(KEY, orderList)
+            intent.putExtra(KEY, ordersPlaced)
             startActivity(intent)
 
         }

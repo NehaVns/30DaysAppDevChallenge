@@ -8,7 +8,8 @@ class ShowOrder : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show_order)
-        val orderOfCustomer = intent.getStringArrayExtra(MainActivity.KEY)
+
+        val orderOfCustomer = intent.getStringExtra(MainActivity.KEY)
         tvOrder.text = orderOfCustomer.toString()
     }
 }
