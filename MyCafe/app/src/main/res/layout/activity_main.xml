@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Neha's Cafe" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:hint="Enter Item 1 "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/eT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Enter Item 2 "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/eT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Enter Item 3 "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/eT3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Enter Item 4 "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/eT4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordeer Now"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        />
+</LinearLayout>
