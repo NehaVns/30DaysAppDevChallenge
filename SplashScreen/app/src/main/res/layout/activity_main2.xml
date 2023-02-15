@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity2">
 
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_gravity="center"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/gmail_logo" />
+        android:text="Hello splash screen"
+        android:textSize="30dp"
+        android:textAlignment="center"
+
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="283dp" />
 </LinearLayout>
