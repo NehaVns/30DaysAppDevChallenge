@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/SplashScreen/app/src/main/res/drawable/grey_background.xml" value="0.108" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/SplashScreen/app/src/main/res/drawable/main_background.xml" value="0.108" />
         <entry key="..\:/30DaysAPPdevelopmentChallenge/SplashScreen/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/30DaysAPPdevelopmentChallenge/SplashScreen/app/src/main/res/layout/activity_main2.xml" value="0.17552083333333332" />
+        <entry key="..\:/30DaysAPPdevelopmentChallenge/SplashScreen/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
       </map>
     </option>
   </component>

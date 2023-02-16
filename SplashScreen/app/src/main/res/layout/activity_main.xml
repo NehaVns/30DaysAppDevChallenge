@@ -13,5 +13,5 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/gmail_logo" />
+        app:srcCompat="@drawable/zomato_logo" />
 </LinearLayout>
