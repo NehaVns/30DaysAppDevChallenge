@@ -19,5 +19,9 @@ During our session, we acquired knowledge about Text View and Scroll View, and p
 You can find the app here: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ScrollView" target="_blank" rel="noreferrer">Scroll View</a>.
 
 ## Day 8-9
-So from now onwards we started focussing on the Intents inside android studio. There are two of them but we started with the Explicit one. An activity is a specific screen or user interface within an Android app, and an explicit intent is used to launch a specific activity directly, without relying on any system defaults or implicit behaviors.
+So from now onwards we started focussing on the Intents inside android studio. There are two of them but we started with the Explicit one. An activity is a specific screen or user interface within an Android app, and an explicit intent is used to launch a specific activity directly, without relying on any system defaults or implicit behaviors.<br>
 Find the source code here:  <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ExplicitIntent" target="_blank" rel="noreferrer">Explicit Intent</a>.
+
+## Day 10
+Implicit intents are a little difficult to work with initially because we are not very well aware of the different functionalities it provides for different android applications inside our mobile phones. <br>
+An example demostrating this is:  <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ImplicitIntent" target="_blank" rel="noreferrer">Implicit Intent</a>.
