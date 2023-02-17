@@ -13,3 +13,7 @@ Once you have a good understanding of Java, you can start building your first An
 ## Day 4-6
 Now that you have a basic understanding of Android app development, it's time to focus on the user interface (UI). You will learn how to create and design the UI using XML layout files, how to add buttons, text fields, and other UI elements to your app, and how to respond to user interactions.
 
+## Day 7
+During our session, we acquired knowledge about Text View and Scroll View, and proceeded to create a basic user interface while also exploring the different layout features available. <br>
+You can find the app here: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ScrollView" target="_blank" rel="noreferrer">ScrollView</a>.
+
