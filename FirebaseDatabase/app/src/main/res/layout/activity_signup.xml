@@ -37,7 +37,6 @@
         app:hintTextColor="@color/yellow"
         android:layout_gravity="center"
         android:layout_marginTop="150dp"
-        android:id="@+id/edUserName"
         app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusTopStart="20dp">
@@ -45,7 +44,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Username" />
+            android:hint="Username"
+            android:id="@+id/edUserName"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -55,7 +55,6 @@
         app:hintTextColor="@color/yellow"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:id="@+id/edMail"
         app:startIconDrawable="@drawable/ic_baseline_email_24"
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusTopStart="20dp">
@@ -64,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Email"
-
+            android:id="@+id/edMail"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,7 +74,6 @@
         app:hintTextColor="@color/yellow"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:id="@+id/edPassword"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
         app:endIconMode="password_toggle"
         app:boxCornerRadiusBottomEnd="20dp"
@@ -84,7 +82,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Password" />
+            android:hint="Password"
+            android:id="@+id/edPassword"/>
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -96,7 +96,7 @@
         android:layout_gravity="center"
         android:backgroundTint="@color/red"
         android:textColor="@color/white"
-        android:textSize="15dp"/>
+        android:textSize="20dp"/>
 
 </LinearLayout>
 
