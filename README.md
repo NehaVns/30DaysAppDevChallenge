@@ -8,8 +8,26 @@ The first step in becoming an Android developer is to familiarize yourself with 
 Android development is done using Kotlin, so it's essential to have a good understanding of the language. For the next few days, focus on learning the basics of Kotlin programming. This includes variables, data types, operators, control structures, arrays, loops, and more.
 
 ## Day 3
-Once you have a good understanding of Java, you can start building your first Android app. The first app we built was named as <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/FirstDemoApp" target="_blank" rel="noreferrer">FirstDemoApp</a>.
+Once you have a good understanding of Java, you can start building your first Android app.<br>
+The first app we built was named as <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/First Demo App" target="_blank" rel="noreferrer">FirstDemoApp</a>.
 
 ## Day 4-6
 Now that you have a basic understanding of Android app development, it's time to focus on the user interface (UI). You will learn how to create and design the UI using XML layout files, how to add buttons, text fields, and other UI elements to your app, and how to respond to user interactions.
 
+## Day 7
+During our session, we acquired knowledge about Text View and Scroll View, and proceeded to create a basic user interface while also exploring the different layout features available. <br>
+You can find the app here: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ScrollView" target="_blank" rel="noreferrer">Scroll View</a>.
+
+## Day 8-9
+So from now onwards we started focussing on the Intents inside android studio. There are two of them but we started with the Explicit one. An activity is a specific screen or user interface within an Android app, and an explicit intent is used to launch a specific activity directly, without relying on any system defaults or implicit behaviors.<br>
+Find the source code here:  <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ExplicitIntent" target="_blank" rel="noreferrer">Explicit Intent</a>.
+
+## Day 10
+Implicit intents are a little difficult to work with initially because we are not very well aware of the different functionalities it provides for different android applications inside our mobile phones. <br>
+An example demostrating this is:  <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/ImplicitIntent" target="_blank" rel="noreferrer">Implicit Intent</a>.
+
+## Day 11
+The video focusses on the one of the very important concepts of android developement - <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/WebView" target="_blank" rel="noreferrer">Webview</a>.
+
+## Day 12
+Developing your first application all by yourself can be a challenging and rewarding experience. I learned a lot and am proud of what I have accomplished. To see what kind of application I built, 𝗰𝗵𝗲𝗰𝗸 𝗼𝘂𝘁 𝘁𝗵𝗲 𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗮𝘁: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/KnowledgeHub" target="_blank" rel="noreferrer">Knowledge Hub</a>.
