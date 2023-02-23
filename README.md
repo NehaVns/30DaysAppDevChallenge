@@ -31,3 +31,6 @@ The video focusses on the one of the very important concepts of android develope
 
 ## Day 12
 Developing your first application all by yourself can be a challenging and rewarding experience. I learned a lot and am proud of what I have accomplished. To see what kind of application I built, 𝗰𝗵𝗲𝗰𝗸 𝗼𝘂𝘁 𝘁𝗵𝗲 𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗮𝘁: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/KnowledgeHub" target="_blank" rel="noreferrer">Knowledge Hub</a>.
+
+## Day 13
+Here we passed data from one activity to another. 
