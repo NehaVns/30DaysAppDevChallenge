@@ -39,4 +39,9 @@ Here we passed data from one activity to another. The orders given by the custom
 It was all about how to understand Logcat and other error resolution techniques.
 
 ## Day 16
-We have finally started with Firebase in our application <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/MyCafe" target="_blank" rel="noreferrer">My Cafe</a>.
+We have finally started with Firebase in our application <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/FirebaseDatabase" target="_blank" rel="noreferrer">Firebase Database</a>. <br>
+Here we are just designing the SignUp Screen and storing the user information in the Firebase.
+
+## Day 17
+We have extended the previous application, adding the Login page, by reading the data from the Firebase
+
