@@ -31,3 +31,17 @@ The video focusses on the one of the very important concepts of android develope
 
 ## Day 12
 Developing your first application all by yourself can be a challenging and rewarding experience. I learned a lot and am proud of what I have accomplished. To see what kind of application I built, 𝗰𝗵𝗲𝗰𝗸 𝗼𝘂𝘁 𝘁𝗵𝗲 𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗮𝘁: <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/KnowledgeHub" target="_blank" rel="noreferrer">Knowledge Hub</a>.
+
+## Day 13
+Here we passed data from one activity to another. The orders given by the customer is available onto the next screen <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/MyCafe" target="_blank" rel="noreferrer">My Cafe</a>. 
+
+## Day 14
+It was all about how to understand Logcat and other error resolution techniques.
+
+## Day 16
+We have finally started with Firebase in our application <a href="https://github.com/NehaVns/30DaysAppDevChallenge/tree/main/FirebaseDatabase" target="_blank" rel="noreferrer">Firebase Database</a>. <br>
+Here we are just designing the SignUp Screen and storing the user information in the Firebase.
+
+## Day 17
+We have extended the previous application, adding the Login page, by reading the data from the Firebase
+
