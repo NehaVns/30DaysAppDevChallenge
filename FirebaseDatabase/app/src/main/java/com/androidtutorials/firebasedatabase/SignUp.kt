@@ -1,5 +1,6 @@
 package com.androidtutorials.firebasedatabase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,6 +20,7 @@ class SignUp : AppCompatActivity() {
         val edUName = findViewById<TextInputEditText>(R.id.edUserName)
         val edUEmail = findViewById<TextInputEditText>(R.id.edMail)
         val edUPassword = findViewById<TextInputEditText>(R.id.edPassword)
+        val signInButton = findViewById<Button>(R.id.btnSignIn)
 
         signupButton.setOnClickListener {
             val userName = edUName.text.toString()
@@ -38,6 +40,12 @@ class SignUp : AppCompatActivity() {
             }
 
         }
+        signInButton.setOnClickListener {
+            val intentLogin = Intent(this, Login::class.java)
+            startActivity(intentLogin)
+
+        }
+
 
     }
 }

@@ -36,7 +36,7 @@
         app:boxStrokeColor="@color/yellow"
         app:hintTextColor="@color/yellow"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusTopStart="20dp">
