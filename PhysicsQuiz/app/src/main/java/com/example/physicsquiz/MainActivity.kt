@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btn7.setOnClickListener {
             val builder8 = AlertDialog.Builder(this);
-            builder8.setTitle("Select the correct option")
+            builder8.setTitle("Select the correct options")
             val optionList7 = arrayOf(
                 "AC is free from voltage fluctuations in comparison to DC",
                 "AC can be transmitted over long distances with minimum power loss",
@@ -215,7 +215,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btn8.setOnClickListener {
             val builder9 = AlertDialog.Builder(this);
-            builder9.setTitle("Select the correct option")
+            builder9.setTitle("Select the correct options")
             val optionList8 = arrayOf(
                 "Pitch",
                 "Resonant Frequency",
@@ -241,7 +241,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btn9.setOnClickListener {
             val builder10 = AlertDialog.Builder(this)
-            builder10.setTitle("Select the correct option")
+            builder10.setTitle("Select the correct options")
             val optionList9 = arrayOf(
                 "Detect cracks and flaws in metal blocks",
                 "Echocardiography",
@@ -325,7 +325,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btn12.setOnClickListener {
             val builder13 = AlertDialog.Builder(this);
-            builder13.setTitle("Select the correct option")
+            builder13.setTitle("Select the correct options")
             val optionList12 = arrayOf(
                 "Concave lenses",
                 "Concave mirror",
