@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHYSICS QUIZ"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"/>
+
+
+    <TextView
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Questions: 20"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration: 1 hour" />
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q1. Which among the following Radio frequencies are used around the world in air navigational system?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q2. Which among the following can hear the sound in the frequency range which human cannot hear?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q3. Which among the following provides potential energy to an object?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q4. What changes are made by a flute player when he / she opens and closes the holes in the body of the flute?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q5. One joule of work is said to be done when__:"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q6. A cardboard is placed on a glass of water, and a ten paise coin is placed on the cardboard. If the cardboard is flicked suddenly in the direction parallel to its surface, then the cardboard flies away, but the coin falls in the glass.
+The behaviour of the coin can be explained by which among the following properties?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q7. Which among the following is / are correct statements comparing the Alternative Current (AC) with Direct Current (DC)?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q8. While playing a flute, the flute player opens and closes the holes in the body of the flute to make changes in __:"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q9. Ultrasounds are used extensively in industries and for medical purposes. Which among the following is / are applications of Ultrasound?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q10. Consider the following statements:
+1. Largest fraction of electricity generated in India is coal based
+2. Majority of imported coal in India is used in electricity production
+Which among the above statements is / are correct?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q11. A container is filled with water at 4°C. The water will overflow if the temperature of water is __:"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q12. Which of the following can produce virtual images?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q13. The force that binds the neutrons and protons in a nucleus is called as:"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q14. By how many times are the Electrostatic forces stronger than the Gravitational Forces for a fixed distance?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q15. What is the force of attraction between any two bodies by virtue of their masses is called?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q16. Which of the following is the largest practical unit of mass?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q17. Which of the following units is NOT used for measuring length?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q18. Which of the following are Polar vectors?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q19. What is the relation between Time period and Frequency in case of uniform circular motion?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q20. What is the force that is required to produce unit elongation in a wire known as?"
+                        android:textSize="18dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btn20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="ATTEMPT"
+                        android:textSize="15dp"
+                        android:backgroundTint="#060047"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#060047">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finish"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:id="@+id/btnFinish"
+                    android:backgroundTint="#B3005E"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
