@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder5.setNegativeButton(
                 "DISMISS",
@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder6.setNegativeButton(
                 "DISMISS",
@@ -176,7 +176,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder7.setNegativeButton(
                 "DISMISS",
@@ -203,7 +203,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder8.setNegativeButton(
                 "DISMISS",
@@ -229,7 +229,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder9.setNegativeButton(
                 "DISMISS",
@@ -255,7 +255,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder10.setNegativeButton(
                 "DISMISS",
@@ -284,7 +284,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder11.setNegativeButton(
                 "DISMISS",
@@ -313,7 +313,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder12.setNegativeButton(
                 "DISMISS",
@@ -339,7 +339,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder13.setNegativeButton(
                 "DISMISS",
@@ -368,7 +368,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder14.setNegativeButton(
                 "DISMISS",
@@ -397,7 +397,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder15.setNegativeButton(
                 "DISMISS",
@@ -426,7 +426,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder16.setNegativeButton(
                 "DISMISS",
@@ -455,7 +455,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder17.setNegativeButton(
                 "DISMISS",
@@ -484,7 +484,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder18.setNegativeButton(
                 "DISMISS",
@@ -513,7 +513,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder19.setNegativeButton(
                 "DISMISS",
@@ -542,7 +542,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder20.setNegativeButton(
                 "DISMISS",
@@ -571,7 +571,7 @@ class MainActivity : AppCompatActivity() {
                 "SUBMIT",
                 DialogInterface.OnClickListener { dialogInterface, i ->
                     // Close the application
-                    finish()
+//                    finish()
                 })
             builder21.setNegativeButton(
                 "DISMISS",
