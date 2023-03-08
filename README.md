@@ -45,3 +45,8 @@ Here we are just designing the SignUp Screen and storing the user information in
 ## Day 17
 We have extended the previous application, adding the Login page, by reading the data from the Firebase
 
+## Day 18
+Concepts regarding view binding are discussed. It is very useful to link layout components as compared to findViewById. 
+
+
+
