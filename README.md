@@ -48,5 +48,7 @@ We have extended the previous application, adding the Login page, by reading the
 ## Day 18
 Concepts regarding view binding are discussed. It is very useful to link layout components as compared to findViewById. 
 
+## Day 19
+
 
 
