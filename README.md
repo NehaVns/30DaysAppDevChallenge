@@ -52,5 +52,11 @@ Concepts regarding view binding are discussed. It is very useful to link layout 
 
 ## Day 20
 
+## Day 21
+
+## Day 22
+
+
+
 
 
