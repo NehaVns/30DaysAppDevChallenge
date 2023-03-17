@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContact"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Welcome, " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:text="Name"
+            android:layout_weight="5"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_gravity="end"
+            android:gravity="end"
+          android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/profile_image"
+            android:foregroundGravity="bottom|right"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
