@@ -9,11 +9,12 @@
 
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dynamic and Stylish Photo Frame"
         android:textSize="25dp"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:layout_gravity="center"/>
 
@@ -23,14 +24,36 @@
         android:layout_margin="10dp">
 
         <ImageView
+            android:id="@+id/imgPic0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pic0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="1"/>
+        <ImageView
             android:id="@+id/imgPic1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             app:srcCompat="@drawable/pic1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/imgPic2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pic2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
@@ -41,7 +64,7 @@
         <ImageButton
             android:id="@+id/imgPrevious"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:layout_margin="10dp"
             app:srcCompat="@drawable/baseline_arrow_back_24" />
@@ -49,14 +72,14 @@
         <ImageButton
             android:id="@+id/imgNext"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:layout_margin="10dp"
             app:srcCompat="@drawable/baseline_arrow_forward_24" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvName1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
