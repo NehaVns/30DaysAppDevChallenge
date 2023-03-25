@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         webView.apply{
             settings.javaScriptEnabled = true
             settings.safeBrowsingEnabled = true
-            loadUrl("https://medium.com/@nehavns2848")
+            loadUrl("https://hackathon-chi-five.vercel.app/")
 
 
         }
