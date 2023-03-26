@@ -6,9 +6,9 @@
         android:endColor="#1E90FF"
         android:angle="315"/>
 
-    <corners
-        android:bottomRightRadius="40sp"
-        android:topLeftRadius="40sp" />
+<!--    <corners-->
+<!--        android:bottomRightRadius="40sp"-->
+<!--        android:topLeftRadius="40sp" />-->
 
 
 
