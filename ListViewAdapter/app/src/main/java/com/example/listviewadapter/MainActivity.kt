@@ -1,5 +1,6 @@
 package com.example.listviewadapter
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
@@ -29,5 +30,17 @@ class MainActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.listView)
         listView.isClickable = true
         listView.adapter = MyAdapter(this, userArrayList)
+        
+        listView.setOnItemClickListener { adapterView, view, i, l ->
+            //open new activity
+            val userName = name[i]
+            val userNumber = phoneNumber[i]
+            val userImage = imageId[i]
+            val intent = Intent(this, UserActivity::class.java)
+            intent.putExtra("name", userName)
+            intent.putExtra("phone",userNumber)
+            intent.putExtra("image",userImage)
+            startActivity(intent)
+        }
     }
 }
