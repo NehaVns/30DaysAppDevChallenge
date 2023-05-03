@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportActionBar?.hide()
         myRecyclerView = findViewById(R.id.recyclerView)
         var newsImageArray= arrayOf(
             R.drawable.news1,
@@ -31,7 +33,9 @@ class MainActivity : AppCompatActivity() {
         for (index in newsImageArray.indices){
             val news = News(newsHeadingArray[index],newsImageArray[index])
             newsArrayList.add(news)
-
         }
+
+        myRecyclerView.adapter = MyAdapter(newsArrayList, this);
+
     }
 }
